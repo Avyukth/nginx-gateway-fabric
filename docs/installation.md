@@ -37,7 +37,7 @@ page.
 1. Install the Gateway API resources from the standard channel (the CRDs and the validating webhook):
 
    ```shell
-   kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v0.8.1/standard-install.yaml
+   kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.0.0/standard-install.yaml
    ```
 
 1. Deploy the NGINX Gateway Fabric CRDs:
